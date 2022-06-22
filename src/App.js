@@ -1,11 +1,11 @@
-import "./App.css";
+import stlyes from "./App.module.css";
 import Product from "./Product";
 
 function App() {
   return (
     <div>
       <h1>Hello World</h1>
-
+      <h2 className={stlyes.error}>An error occured</h2>
       <Product
         name="Amazon Echo"
         description="Your AI assistant"
