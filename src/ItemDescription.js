@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // Function based
 function ItemDescription({ name, description }) {
   return (
@@ -13,6 +13,7 @@ function ItemDescription({ name, description }) {
 
 export default ItemDescription;
 
+// import React, { Component } from "react";
 // class based
 // export default class ItemDescription extends Component {
 //   render() {
